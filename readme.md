@@ -2,6 +2,8 @@
 
 This repository is dedicated to learning React. It contains various projects, exercises, and resources to help you understand and master React.
 
+I'm following Hitesh Choudhary's course for this. You can find it here - [https://www.youtube.com/watch?v=4DqAvWonPAg](https://www.youtube.com/watch?v=4DqAvWonPAg)
+
 ## Getting Started
 
 To get started with this repository, follow these steps:
