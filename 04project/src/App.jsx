@@ -14,7 +14,7 @@ function App() {
     let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 
     if(numberAllowed) str +="0123456789"
-    if(charAllowed) str +="!@#$%^&*()_+"
+    if(charAllowed) str +="!@#$%^ &*()_+"
 
     for(let i=0; i <length; i++){
       const char = Math.floor(Math.random() * str.length + 1)
