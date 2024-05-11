@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className='w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat' style={{backgroundImage: `url(https://diseasecalleddebt.com/wp-content/uploads/2021/01/forex.jpeg)` }}>
-     <div className="w-full">div.w-full.max-w-md.mx-auto,<border className="border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+     <div className="w-full"><div className="w-full max-w-md mx-auto"><border className="border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
       <form action="" onSubmit={(e)=>{
         e.preventDefault()
         convert()
@@ -37,13 +37,14 @@ function App() {
         <div className="w-full mb-1">
           <InputBox
         label="from"
-        amoint={amount}
+        amount={amount}
         currencyOptions={options}
         onCurrencyChange={(currency)=>setFrom(currency)}
         selectedCurrency={from}
 
+        
         />
-        </div></div></form></border></div>
+        </div></form></border></div></div>
     </div>
   )
 }
